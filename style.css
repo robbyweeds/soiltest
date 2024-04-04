@@ -1,0 +1,51 @@
+
+body {
+    background-color: coral;
+    height: 2000px;
+}
+
+.header {
+    padding: 20px 16px;
+    background: #555;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none !important;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    /* position: sticky; top: 0; */
+    border-radius: 10px;
+  }
+
+.header > span >  a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.header > span > a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.header > span > a:hover {
+    color: pink;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+
+
+.header > span {
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+#box1 {
+    border: 2px solid #000000;
+}
