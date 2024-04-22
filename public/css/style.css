@@ -41,8 +41,14 @@ body {
 .header > span {
     margin-right: 40px;
     text-decoration: none;
+    
 }
 
 #box1 {
     border: 2px solid #000000;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
 }
